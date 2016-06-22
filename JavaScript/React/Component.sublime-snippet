@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const ${1:Component} = React.createClass({
+
+	render: function() {
+		return (
+			<div></div>
+		);
+	}
+
+});
+
+export default ${1:Component};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rcc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

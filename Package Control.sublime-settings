@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"JavaScript Completions",
+		"JSHint",
+		"Oceanic Color Scheme",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"ReactJS",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"Theme - Spacegray"
+	]
+}

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<footer class="$1" id="$1">
+	
+	<div class="$1__wrap wrap">
+
+		<h2 class="$1__title">
+
+		</h2>
+	
+	</div> <!-- /.$1__wrap -->
+
+</footer> <!-- /.$1 -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

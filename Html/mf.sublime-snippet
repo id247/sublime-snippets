@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+<form action="ajax/contact.php" class="form" method="post">
+	<input type="hidden" name="required" value="name,message" />
+	<input type="hidden" name="type" value="Форма" />
+
+	<div class="form__input-placeholder">
+			
+		<input type="text" class="form__input form__input--m required" name="name" placeholder="Имя" />
+
+	</div> <!-- /.form__input-placeholder -->
+
+	<div class="form__input-placeholder">
+			
+		<input type="tel" class="form__input form__input--m required" name="phone" placeholder="Телефон" />
+
+	</div> <!-- /.form__input-placeholder -->
+
+	<div class="form__input-placeholder">
+			
+		<input type="email" class="form__input form__input--m required" name="email" placeholder="Email" />
+
+	</div> <!-- /.form__input-placeholder -->
+
+	<div class="form__input-placeholder">
+															
+		<textarea name="message" class="form__textarea form__textarea--m required" placeholder="Сообщение"></textarea>
+
+	</div> <!-- /.form__input-placeholder -->
+	
+	<div class="form__button-placeholder">
+			
+		<button type="submit" class="button button--color button--size">Отправить</button>
+
+	</div> <!-- /.form__button-placeholder -->
+
+</form> <!-- /.form -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

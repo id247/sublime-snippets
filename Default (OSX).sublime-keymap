@@ -1,0 +1,10 @@
+[
+{ "keys": ["ctrl+shift+command+/"], "command": "insert_snippet","args": {"contents": "/* ==========================================================================\n * ${0:$SELECTION}\n * ========================================================================== */\n"}},
+{ "keys": ["ctrl+3"], "command": "insert_snippet","args": {"contents": "&__${0:$SELECTION}{\n	\n}"}},
+{ "keys": ["ctrl+7"], "command": "insert_snippet","args": {"contents": "&__${0:$SELECTION}{\n	\n}"}},
+{ "keys": ["ctrl+b"], "command": "insert_snippet","args": {"contents": "<strong>$SELECTION</strong>"}},
+{ "keys": ["alt+p"], "command": "reindent"},
+{ "keys": ["ctrl+shift+e"], "command": "insert_snippet","args": {"name": "Packages/User/section.sublime-snippet"}},
+{ "keys": ["ctrl+shift+h"], "command": "insert_snippet","args": {"name": "Packages/User/header.sublime-snippet"}},
+{ "keys": ["ctrl+shift+f"], "command": "insert_snippet","args": {"name": "Packages/User/footer.sublime-snippet"}}
+]

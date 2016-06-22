@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+.menu{
+
+	&__list{
+		margin: 0 0 -20px;
+	}
+
+	&__item{
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 20px 15px;
+		&:first-child{
+			margin-left: 0;
+		}
+	}
+
+	&__href{
+		&.active{
+			border-color: transparent;
+		}
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cssmenu</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

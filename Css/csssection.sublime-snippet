@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+.section{
+	padding: 100px 0 100px;
+
+
+	&__title{
+		text-align: center;
+		margin: 0 0 40px;
+		font-weight: 400;
+		font-size: 48px;
+		line-height: (58/48);
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>csssection</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

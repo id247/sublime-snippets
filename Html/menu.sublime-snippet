@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+
+<ul class="menu__list">
+	
+	<li class="menu__item">
+		<a href="#777" class="menu__href">Пункт</a>
+	</li>
+
+</ul> <!-- /.menu__list -->
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mm</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

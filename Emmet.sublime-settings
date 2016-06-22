@@ -1,0 +1,33 @@
+{
+	"snippets": {
+		"css": {
+			"abbreviations": {
+				"grad": "background: linear-gradient(to bottom, # 0%, # 100%);;",
+				"rgbb": "rgba(0,0,0,.5);",
+				"rgbw": "rgba(255,255,255,.5);",
+				"clearfix": "@include clearfix;",
+				"before": "&:before{\n\n}",
+				"after": "&:after{\n\n}",
+				"hover": "&:hover{\n\n}",
+				"spr": "@include sprite($);",
+				"retina": "@include retina-sprite($-group);",
+				"bgu": "background: #fff url(../images/bg/) 50% 0 no-repeat;;",
+				"cover": "background-size: cover;;",
+				"tran": "transition: all .2s;;",
+				"inl": "@include list;",
+				"icons": "@include icons();",
+				"inw": "@include wrap;" 
+			}
+		}
+	},	
+	"preferences": {
+		"filter.commentAfter": "<!-- /<%= attr(\"id\", \"#\") %><%= attr(\"class\", \".\") %> -->"
+	},
+    "syntaxProfiles": {
+        "html" : {
+            // auto add the comments
+            "self_closing_tag": false,
+            "filters": "html,c"
+        }
+    }
+}
