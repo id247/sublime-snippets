@@ -6,5 +6,6 @@
 { "keys": ["alt+p"], "command": "reindent"},
 { "keys": ["ctrl+shift+e"], "command": "insert_snippet","args": {"name": "Packages/User/Html/section.sublime-snippet"}},
 { "keys": ["ctrl+shift+h"], "command": "insert_snippet","args": {"name": "Packages/User/Html/header.sublime-snippet"}},
-{ "keys": ["ctrl+shift+f"], "command": "insert_snippet","args": {"name": "Packages/User/Html/footer.sublime-snippet"}}
+{ "keys": ["ctrl+shift+f"], "command": "insert_snippet","args": {"name": "Packages/User/Html/footer.sublime-snippet"}},
+{ "keys": ["ctrl+shift+y"], "command": "reg_replace", "args": {"replacements": ["remove_html_comments", "remove_trailing_spaces"]}}
 ]
