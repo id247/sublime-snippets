@@ -93,6 +93,12 @@
             "replace": "",
             "greedy": true
         },
+        // rewrite_class_to_className
+        "rewrite_class_to_className": {
+            "find": "class=",
+            "replace": "className=",
+            "greedy": true
+        },
 
         // delete a comment or comment blocks
         "remove_comments": {
