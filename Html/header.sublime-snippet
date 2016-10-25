@@ -1,16 +1,13 @@
 <snippet>
 	<content><![CDATA[
-<header class="$1" id="$1">
+<header class="container__section section header" id="header">
 	
-	<div class="$1__wrap wrap">
+	<div class="section__wrap header__wrap">
 
-		<h2 class="$1__title">
-
-		</h2>
 	
-	</div> <!-- /.$1__wrap -->
+	</div> <!-- /.header -->
 
-</header> <!-- /.$1 -->
+</header> <!-- /.header -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->

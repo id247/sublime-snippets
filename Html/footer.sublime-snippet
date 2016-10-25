@@ -1,16 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<footer class="$1" id="$1">
+<footer class="container__section section footer" id="footer">
 	
-	<div class="$1__wrap wrap">
-
-		<h2 class="$1__title">
-
-		</h2>
+	<div class="section__wrap footer__wrap">
 	
-	</div> <!-- /.$1__wrap -->
+	</div> <!-- /.footer__wrap -->
 
-</footer> <!-- /.$1 -->
+</footer> <!-- /.footer -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<!-- <tabTrigger>hello</tabTrigger> -->

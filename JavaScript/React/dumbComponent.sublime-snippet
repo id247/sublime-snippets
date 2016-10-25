@@ -1,31 +1,15 @@
 <snippet>
 	<content><![CDATA[
 import React from 'react';
-import { connect } from 'react-redux';
-
-//class ComponentName extends React.Component {
-//
-//	render(){
-//		return(
-//			<div className={( (props.mixClass ? props.mixClass : '') + ' class')}>
-//			</div>
-//		);
-//	}
-//}
 
 const ComponentName = (props) => (
 	<div className={( (props.mixClass ? props.mixClass : '') + ' class')}>
 	</div>
 );
 
-const mapStateToProps = (state, ownProps) => ({
-});
-
-const mapDispatchToProps = (dispatch, ownProps) => ({
-});
-
 ComponentName.propTypes = {
 	mixClass: React.PropTypes.string,
+	
 //	Array: React.PropTypes.array.isRequired,
 //	Bool: React.PropTypes.bool.isRequired,
 //	Func: React.PropTypes.func.isRequired,
@@ -35,10 +19,10 @@ ComponentName.propTypes = {
 //	Symbol: React.PropTypes.symbol.isRequired,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ComponentName);
+export default ComponentName;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>reactComponent</tabTrigger>
+	<tabTrigger>reactDumbComponent</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

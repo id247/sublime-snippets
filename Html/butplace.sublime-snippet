@@ -1,19 +1,13 @@
 <snippet>
 	<content><![CDATA[
-<section class="container__section section $1" id="$1">
-	
-	<div class="section__wrap $1__wrap">
-
-		<h2 class="section__title $1__title">
+<div class="${1}__button-placeholder">
 			
-		</h2>
-	
-	</div> <!-- /.$1__wrap -->
+	<a href="#" class="${1}__button button button--color button--size">text</a>
 
-</section> <!-- /.$1 -->
+</div><!-- /.${1}__button-placeholder -->
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<!-- <tabTrigger>hello</tabTrigger> -->
+	<tabTrigger>butplace</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
